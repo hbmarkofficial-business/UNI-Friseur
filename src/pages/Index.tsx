@@ -12,63 +12,63 @@ const Index = () => {
     <>
       <Helmet>
         {/* Titel & Meta Description */}
-        <title>Barbershop Prenzlauer Berg | The Gentleman's Cut</title>
+        <title>Barbershop Augsburg | UNI Friseur</title>
         <meta
           name="description"
-          content="Besuche unseren Premium Barbershop The Gentleman's Cut in Berlin Prenzlauer Berg für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
+          content="Besuche unseren Premium Barbershop UNI Friseur in Augsburg für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
         />
         <meta
           name="keywords"
-          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin, Prenzlauer Berg"
+          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Augsburg, UNI Friseur"
         />
-        <link rel="canonical" href="https://gentlemanscut.de" />
+        <link rel="canonical" href="https://unifriseur.de" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta property="og:title" content="UNI Friseur | Premium Barbershop Augsburg" />
         <meta
           property="og:description"
-          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Berlin Prenzlauer Berg."
+          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Augsburg."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://gentlemanscut.de" />
-        <meta property="og:image" content="https://gentlemanscut.de/images/og-image.png" />
+        <meta property="og:url" content="https://unifriseur.de" />
+        <meta property="og:image" content="https://unifriseur.de/images/og-image.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta name="twitter:title" content="UNI Friseur | Premium Barbershop Augsburg" />
         <meta
           name="twitter:description"
           content="Erleben Sie erstklassige Haarschnitte und Bartpflege für den modernen Gentleman."
         />
-        <meta name="twitter:image" content="https://gentlemanscut.de/images/og-image.png" />
+        <meta name="twitter:image" content="https://unifriseur.de/images/og-image.png" />
 
         {/* Schema.org LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Barbershop",
-            "name": "The Gentleman's Cut",
-            "image": "https://gentlemanscut.de/images/logo.png",
+            "name": "UNI Friseur",
+            "image": "https://unifriseur.de/images/logo.png",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Straße 12",
-              "addressLocality": "Berlin",
-              "postalCode": "10115",
+              "streetAddress": "Salomon-Idler-Straße 24C",
+              "addressLocality": "Augsburg",
+              "postalCode": "86159",
               "addressCountry": "DE"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "52.5200",
-              "longitude": "13.4050"
+              "latitude": "48.3341",
+              "longitude": "10.8983"
             },
-            "url": "https://gentlemanscut.de",
-            "telephone": "+49 30 1234567",
-            "openingHours": "Mo-Fr 09:00-19:00, Sa 09:00-17:00",
+            "url": "https://unifriseur.de",
+            "telephone": "+49 821 54091294",
+            "openingHours": "Mo-Fr 09:00-19:00, Sa 08:30-17:00",
             "priceRange": "€€",
             "servesCuisine": "Barbershop Services",
             "sameAs": [
-              "https://www.facebook.com/gentlemanscut",
-              "https://www.instagram.com/gentlemanscut"
+              "https://www.facebook.com/unifriseur",
+              "https://www.instagram.com/unifriseur"
             ]
           })}
         </script>
